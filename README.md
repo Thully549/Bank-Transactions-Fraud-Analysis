@@ -108,7 +108,9 @@ The walkthrough covers:
 - Transactions occurring during unusual hours exhibit a higher fraud rate (**6%**) compared to normal hours (**3%**)  
 - All unusual-time transactions were flagged as fraudulent, suggesting rule-based detection patterns  
 - Duplicate Transaction IDs with a combined value of **13,417 million** highlight potential control weaknesses in data generation or system processes  
-- Transactions with null transaction types show a significantly higher fraud rate (**25%**) compared to the dataset average (~4.3%)  
+- Transactions with null transaction types show a significantly higher fraud rate (**25%**) compared to the dataset average (~4.3%)
+- 
+  <img width="450" height="273" alt="Image" src="https://github.com/user-attachments/assets/b789e250-c2a4-4b6a-84aa-e47be0300638" /> 
 - Missing Customer IDs were observed in transactions still classified as non-fraudulent, indicating gaps in validation controls  
 - Fraud distribution varies across geographic locations, suggesting location-based risk exposure  
 - Card type and new merchant status showed limited standalone influence on fraud occurrence  
