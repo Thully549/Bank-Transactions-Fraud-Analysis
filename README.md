@@ -94,13 +94,11 @@ An interactive Excel dashboard was developed to enable intuitive exploration of 
   Used for filtering my data
 The dashboard supports dynamic filtering, allowing users to drill down into specific segments and extract meaningful insights efficiently.
 
----
-
 ## 🎥 Dashboard Walkthrough
 
 A short video demonstration has been included to showcase the dashboard functionality and analytical approach.
 
-👉 *(Insert your video link or embed here)*  
+👉 [![Watch the video](https://img.youtube.com/vi/qhOYOPHxtv4/0.jpg)](https://youtu.be/qhOYOPHxtv4)  
 
 The walkthrough covers:
 
