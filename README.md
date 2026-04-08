@@ -98,7 +98,7 @@ The dashboard supports dynamic filtering, allowing users to drill down into spec
 
 A short video demonstration has been included to showcase the dashboard functionality and analytical approach.
 
-👉 [![Watch the video](https://img.youtube.com/vi/qhOYOPHxtv4/0.jpg)](https://youtu.be/qhOYOPHxtv4)  
+Click!! 👉 [![Watch the video](https://img.youtube.com/vi/qhOYOPHxtv4/0.jpg)](https://youtu.be/qhOYOPHxtv4)  
 
 The walkthrough covers:
 
