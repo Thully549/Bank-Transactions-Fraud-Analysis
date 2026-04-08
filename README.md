@@ -46,6 +46,8 @@ The dataset is sourced from Kaggle and contains 50,000 financial transactions wi
 A key component of this project was evaluating the integrity of the dataset from an audit and control perspective. The following issues were identified:
 
 ### Duplicate Transaction IDs
+<img width="600" height="260" alt="Image" src="https://github.com/user-attachments/assets/4c415f98-f05b-4e37-9d79-be98b6aadd7a" />
+
 - Transaction_ID was expected to function as a unique identifier  
 - Duplicate entries indicate potential weaknesses in system controls or data generation logic  
 - This raises concerns around data reliability and audit traceability  
@@ -55,11 +57,18 @@ A key component of this project was evaluating the integrity of the dataset from
 - Despite this, these transactions were still classified as non-fraudulent  
 - This introduces challenges in traceability, customer linkage, and verification procedures  
 
-### Incomplete / Null Fields
+### Blank / Null Fields
 - Certain records contained missing or blank values in key attributes  
 - This impacted data completeness and required additional validation steps  
 
 ### Data Reconciliation
+
+
+<img width="400" height="300" alt="Image" src="https://github.com/user-attachments/assets/8ff614f6-81e2-4b30-8d12-f9fb79badbec" />
+<img width="340" height="170" alt="Image" src="https://github.com/user-attachments/assets/86543ba9-8c02-4d79-9ba3-b598ad1d648b" />
+<img width="600" height="307" alt="Image" src="https://github.com/user-attachments/assets/39242236-78ab-49a1-899f-9bca113351ac" />
+
+
 - SQL queries were used to validate totals and cross-check results against the Excel dashboard  
 - This ensured consistency between raw data, transformed outputs, and visual summaries  
 
@@ -105,7 +114,9 @@ The walkthrough covers:
 
 - The dataset contains **50,000 transactions**, with an overall fraud rate of approximately **4.85%**  
 - Total transaction value is approximately **249,949 million**, reconciled across SQL and Excel outputs  
-- Transactions occurring during unusual hours exhibit a higher fraud rate (**6%**) compared to normal hours (**3%**)  
+- Transactions occurring during unusual hours exhibit a higher fraud rate (**6%**) compared to normal hours (**3%**)
+  <img width="450" height="214" alt="Image" src="https://github.com/user-attachments/assets/9ea36213-c483-4f19-95a5-053fea9165df" />
+
 - All unusual-time transactions were flagged as fraudulent, suggesting rule-based detection patterns  
 - Duplicate Transaction IDs with a combined value of **13,417 million** highlight potential control weaknesses in data generation or system processes  
 - Transactions with null transaction types show a significantly higher fraud rate (**25%**) compared to the dataset average (~4.3%)
@@ -125,8 +136,8 @@ This project demonstrates how data analytics can be applied in a professional en
 - Internal control evaluation and gap identification  
 - Audit planning, testing, and substantive procedures  
 - Risk assessment and anomaly detection  
-- Data-driven decision-making in financial environments  
-
+- Data-driven decision-making in financial environments
+<img width="600" height="350" alt="Image" src="https://github.com/user-attachments/assets/eeea7e58-3b5b-44a8-ba15-9738beb5becb" />
 ---
 
 ## 🛡️ Recommendations
